@@ -15,10 +15,15 @@ class ArticlesController extends Controller
         return $article;
     }
  
-    public function store(Request $request){
-        $article = Article::create($request->all());
- 
-        return response()->json($article, 201);
+    public function store(Request $request) {
+        $this->validate($request, [
+            'title' => 'required|max:255',
+            'content' => 'required',
+            'author_id' => 'required',
+        ]);
+            $article = Article::create($request->all());
+
+            return response()->json($article, 201);
     }
  
     public function update(Request $request, Article $article){
