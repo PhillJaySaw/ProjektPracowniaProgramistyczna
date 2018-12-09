@@ -13,30 +13,23 @@ use Illuminate\Http\Request;
 |
 */
 
+/** RESTful routes cheatsheet **
+**Route::get($uri, $callback);
+**Route::post($uri, $callback);
+**Route::put($uri, $callback);
+**Route::delete($uri, $callback);
+**
+*/
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('articles', function () {
-    return response(['Article 1', 'Article 2', 'Article 3'], 200);
-});
+Route::get('articles', 'ArticlesController@index');
 
-Route::get('articles/{article}', function ($articleId) {
-    return response()->json(['articleId' => "{$articleId}"], 200);
-});
+Route::get('articles/{article}', 'ArticlesController@show');
 
-Route::post('articles', function() {
-    return response()->json([
-        'message' => 'Create success'
-    ], 201);
-});
+Route::post('articles', 'ArticlesController@store');
 
-Route::put('articles/{article}', function() {
-    return response()->json([
-        'message' => 'Update success'
-    ], 200);
-});
+Route::put('articles/{article}', 'ArticlesController@update');
 
-Route::delete('products/{product}', function() {
-    return response()->json(null, 204);
-});
+Route::delete('articles/{article}', 'ArticlesController@delete');
