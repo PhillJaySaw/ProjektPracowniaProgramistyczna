@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "created_at": "2018-12-08 22:49:54",
+        "updated_at": "2018-12-08 22:49:54",
+        "title": "Mr.",
+        "content": "Fuga et et asperiores aspernatur quis. Ipsam totam sint tempore ad excepturi rerum libero. Dolores hic ea non perferendis quod impedit autem.",
+        "author_id": "99"
+    },
+    {
+        "id": 2,
+        "created_at": "2018-12-08 22:49:54",
+        "updated_at": "2018-12-08 22:49:54",
+        "title": "Prof.",
+        "content": "Quo ut soluta quam error. Cumque quo voluptas qui debitis suscipit. Nihil amet illo asperiores voluptas sed et nisi.",
+        "author_id": "24"
+    },
+    {
+        "id": 3,
+        "created_at": "2018-12-08 22:49:54",
+        "updated_at": "2018-12-08 22:49:54",
+        "title": "Dr.",
+        "content": "Aperiam maiores nisi vitae. Perspiciatis modi quaerat sed voluptatem provident omnis. Omnis et enim voluptatem porro.",
+        "author_id": "32"
+    },
+    {
+        "id": 4,
+        "created_at": "2018-12-08 22:49:54",
+        "updated_at": "2018-12-08 22:49:54",
+        "title": "Dr.",
+        "content": "Illo numquam ut autem. Quidem voluptates molestias commodi facere. Beatae qui omnis delectus qui. Facilis commodi impedit saepe.",
+        "author_id": "30"
+    },
+    {
+        "id": 5,
+        "created_at": "2018-12-08 22:49:54",
+        "updated_at": "2018-12-08 22:49:54",
+        "title": "Prof.",
+        "content": "Repellendus autem ut quos saepe quae inventore quia sint. A unde ullam nisi inventore et repellat. Illo ab voluptatum saepe omnis dolorem placeat ad. Ut saepe adipisci eaque. Aut quae nam omnis nulla ullam reprehenderit libero.",
+        "author_id": "40"
+    },
+    {
+        "id": 6,
+        "created_at": "2018-12-08 22:49:54",
+        "updated_at": "2018-12-08 22:49:54",
+        "title": "Prof.",
+        "content": "Quasi omnis nisi et eos eum. Quaerat minima et laborum praesentium fugiat. Quam aliquam deserunt est dolores tempora ut.",
+        "author_id": "85"
+    },
+    {
+        "id": 7,
+        "created_at": "2018-12-08 22:49:54",
+        "updated_at": "2018-12-08 22:49:54",
+        "title": "Dr.",
+        "content": "Adipisci quod aut accusamus ea. Ipsa qui labore aliquam sunt non dignissimos. Iste qui incidunt unde unde maxime fugiat.",
+        "author_id": "28"
+    },
+    {
+        "id": 8,
+        "created_at": "2018-12-08 22:49:54",
+        "updated_at": "2018-12-08 22:49:54",
+        "title": "Mr.",
+        "content": "Delectus voluptate labore accusantium sapiente optio. Ullam ea voluptatibus hic est. Est tempora nisi ut debitis deserunt.",
+        "author_id": "40"
+    },
+    {
+        "id": 9,
+        "created_at": "2018-12-08 22:49:54",
+        "updated_at": "2018-12-08 22:49:54",
+        "title": "Mr.",
+        "content": "Distinctio voluptatem aut voluptas cum. Et non est omnis quas possimus rerum omnis. Unde eius non omnis quaerat placeat nihil unde. Omnis quia neque earum maiores ducimus qui tempore voluptates.",
+        "author_id": "71"
+    },
+    {
+        "id": 10,
+        "created_at": "2018-12-08 22:49:54",
+        "updated_at": "2018-12-08 22:49:54",
+        "title": "Mrs.",
+        "content": "Dolore sit enim commodi voluptatem et odit. Possimus aspernatur ipsa aut eum suscipit dicta. Quam vero dolorem voluptas. Adipisci quia sunt similique et iure eum nulla.",
+        "author_id": "34"
+    },
+    {
+        "id": 11,
+        "created_at": "2018-12-08 22:49:54",
+        "updated_at": "2018-12-08 22:49:54",
+        "title": "Dr.",
+        "content": "Ab minima repudiandae fuga quasi voluptas. Cumque nemo tenetur eum inventore molestiae rerum. Qui neque repellat quia consequatur dolores quis at facere. Et sunt ad et.",
+        "author_id": "94"
+    },
+    {
+        "id": 12,
+        "created_at": "2018-12-08 22:49:54",
+        "updated_at": "2018-12-08 22:49:54",
+        "title": "Ms.",
+        "content": "Repellendus libero asperiores voluptatibus voluptatem. Pariatur itaque rerum aut voluptate. Alias unde illo praesentium harum aut velit.",
+        "author_id": "44"
+    },
+    {
+        "id": 13,
+        "created_at": "2018-12-08 22:49:54",
+        "updated_at": "2018-12-08 22:49:54",
+        "title": "Mrs.",
+        "content": "Dicta eveniet sint nam quibusdam. Laborum sed dolor quia iure totam ut. Repellendus ut veniam inventore magnam voluptatibus eveniet.",
+        "author_id": "81"
+    },
+    {
+        "id": 53,
+        "created_at": "2018-12-09 16:58:37",
+        "updated_at": "2018-12-09 16:58:37",
+        "title": "test article",
+        "content": "this article is a test to see if POST is working",
+        "author_id": "49"
+    }
+]
