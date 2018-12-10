@@ -16,7 +16,6 @@ class ExportToJsonCommand extends Command
      * @var string
      */
     protected $signature = 'export:json
-                            {filename : path for results}
                             {model : name of model}';
 
     /**
@@ -50,15 +49,15 @@ class ExportToJsonCommand extends Command
 
         $articles = $model::all();
         $jsonData = $articles->toJson(JSON_PRETTY_PRINT);
-        $arrayData = $articles->toArray();
+        //$arrayData = $articles->toArray();
         //$xmlData = ArrayToXml::convert($arrayData);
-        $xml = new ArrayToXML();
-        $xmlData = $xml->buildXML($arrayData);
+        //$xml = new ArrayToXML();
+        //$xmlData = $xml->buildXML($arrayData);
 
 
         echo $jsonData."\n";
 
-        file_put_contents("/Users/philliplawniczak/Documents/Studia/SEMESTR III/prac_prog/Project/serialize/save.xml", $xmlData);
+        //file_put_contents("/Users/philliplawniczak/Documents/Studia/SEMESTR III/prac_prog/Project/serialize/save.xml", $xmlData);
         file_put_contents("/Users/philliplawniczak/Documents/Studia/SEMESTR III/prac_prog/Project/serialize/save.json", $jsonData);
 
         //return $articles->toJson();        
