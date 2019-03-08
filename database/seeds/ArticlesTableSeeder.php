@@ -17,8 +17,8 @@ class ArticlesTableSeeder extends Seeder
         // Create 50 fake articles records
         for($i = 0; $i < 50; $i++) {
             Article::create([
-                'title' => $faker->title,
-                'content' => $faker->paragraph,
+                'title' => $faker->sentence,
+                'content' => $faker->text,
                 'author_id' => $faker->randomNumber(2)
             ]);
         }
